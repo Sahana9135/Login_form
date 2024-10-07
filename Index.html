@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+    
+    <div class="main">
+        <form onsubmit="alert('Your Login request is successfully submitted.')">
+            <table>
+                <h1>Login Form</h1><br>
+                <tr>
+                    <td><label for="name"><b>Name</b></label></td>
+                    <td><input type="text" id="name" placeholder="  Enter Name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="no"><b>Phone</b></label></td>
+                    <td><input type="number" id="no" placeholder="  Enter Phone Number" required></td>
+                </tr>
+                <tr>
+                    <td><label for="mail"><b>Email</b></label></td>
+                    <td><input type="email" id="mail" placeholder="  Enter Mail ID" required></td>
+                </tr>
+                <tr>
+                    <td><b>Confirm</b></td>
+                    <td>
+                        <input type="radio" name="one" id="r">Yes
+                        <input type="radio" name="one" id="r">No
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
